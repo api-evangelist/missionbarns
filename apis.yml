@@ -1,7 +1,26 @@
 aid: missionbarns
-name: missionbarns
-description: missionbarns is a company surfaced as a portfolio company of point-nine and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/missionbarns.png
+name: Mission Barns
+description: >-
+  Mission Barns is a Berkeley, California cultivated-meat company founded in 2018 that grows
+  real animal fat from cells to make animal-friendly pork products — including meatballs, bacon,
+  pepperoni, chorizo, and sausage — built on Mission Fat, its proprietary cultivated pork fat.
+  It is the first company to receive both FDA and USDA clearance for cultivated fat and operates
+  a dual B2C consumer-brand and B2B ingredient / co-development model across foodservice and CPG
+  partners. This API Evangelist profile is a portfolio-company lead (backed by Point Nine); the
+  company runs a consumer marketing site and publishes no public API, developer portal, or
+  technical documentation as of this enrichment pass.
 url: https://raw.githubusercontent.com/api-evangelist/missionbarns/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +30,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Food Technology
+- Cultivated Meat
+- Cellular Agriculture
+- Biotechnology
+- Sustainability
+- Consumer Packaged Goods
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +46,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/missionbarns-domain-security.yml
 - type: Website
   url: https://missionbarns.com
+- type: PrivacyPolicy
+  url: https://missionbarns.com/policy
+- type: TermsOfService
+  url: https://missionbarns.com/terms
+- type: Support
+  url: https://missionbarns.com/faq/
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
